@@ -1,0 +1,147 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Header */
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    color: #fff;
+    background: rgba(0,0,0,0.55);
+    padding: 0px;
+    width: 720px;
+    height: 350px;
+    margin: -175px 0 0 -175px;
+    text-align: center;
+    border-radius: 10px;
+
+	a {
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		line-height: 1.5em;
+		color: #EFFBFB;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #A9E2F3;
+	}	
+
+	h1 {
+	    font-family: 'Mr Dafoe', Arial, sans-serif;
+	    position: relative;
+	    top: 4px;
+	    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+	    padding: 0 0 10px 0;
+	    font-size: 3.2em;
+	    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	}
+
+
+	h2 {
+	    position: relative;
+	    top: 11px;
+	    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+	    padding: 0 0 10px 0;
+	    font-size: 2em;
+	    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	}
+
+	div {
+		padding: 0 50px;
+
+		.gmail {
+			height: 25px;
+			width: 35px;
+			position: relative;
+			top: 2px;
+			padding: 0 3px 0 0;
+		}
+
+		.linkedin {
+			height: 30px;
+			width: 30px;
+			position: relative;
+			top: 5px;
+			padding: 0 3px 0 0;
+		}
+
+		.github {
+			height: 30px;
+			width: 30px;
+			position: relative;
+			top: 5px;
+			padding: 0 3px 0 0;
+		}
+	}
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+
+h1 {
+	font-size: 5.9em;
+	line-height: 1.15em;
+	color: #fff;
+}
+
+h2 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	line-height: 1.5em;
+	color: #EFFBFB;
+}
+
+/*
+header ul {
+    position: relative;
+    top: 10px;
+    font-family: Cambria, Georgia, serif;
+    font-style: italic;
+    padding-left: 25px
+}
+
+header ul li {
+	display: inline;
+	float: left;
+	margin-right: 10px
+}
+
+header ul li a {
+	display: block;
+	width: 30px;
+	height: 30px;	
+}
+
+header ul li a img {
+	position: relative;
+    top: 0;
+    width: 28px;
+    left: 0
+}
+
+header ul li.twitter a {
+	background-color: #023059;
+}
+header ul li.coder a {
+	background-color: #872C26;
+}
+header ul li.linkedin a {
+	background-color: #6BBAC3;
+}
+header ul li.soundcloud a {
+	background-color: #592E19;
+}
+header ul li.dojo a {
+	background-color: #000000;
+}
+header ul li.blog a {
+	background-color: #5B655C;
+}
+*/

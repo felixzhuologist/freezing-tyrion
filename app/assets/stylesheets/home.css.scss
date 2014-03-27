@@ -13,7 +13,7 @@ header {
     padding: 0px;
     width: 720px;
     height: 350px;
-    margin: -175px 0 0 -175px;
+    margin: -175px 0 0 -350px;
     text-align: center;
     border-radius: 10px;
 
@@ -47,9 +47,13 @@ header {
 	    padding: 0 0 10px 0;
 	    font-size: 2em;
 	    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		line-height: 1.5em;
+		color: #EFFBFB;
 	}
 
-	div {
+	.centerbox {
 		padding: 0 50px;
 
 		.gmail {
@@ -76,26 +80,6 @@ header {
 			padding: 0 3px 0 0;
 		}
 	}
-}
-
-body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 1em;
-}
-
-
-h1 {
-	font-size: 5.9em;
-	line-height: 1.15em;
-	color: #fff;
-}
-
-h2 {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 3em;
-	line-height: 1.5em;
-	color: #EFFBFB;
 }
 
 /*

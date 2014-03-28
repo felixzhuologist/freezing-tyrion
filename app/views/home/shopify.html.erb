@@ -1,1 +1,104 @@
-test123
+<ol class="curtains">
+    <li id="section-1">
+        <div class="shopify-cover">
+            <h1>
+            Hey <%=image_tag("shopify.png", alt: "Shopify", :class=>"shopify")%>!
+            Thanks for visiting my website. I've added some more info here so that 
+            you can get to know me better.
+            </h1>
+        </div>
+    </li>
+    <li id="section-2">
+    	<div class="title">
+    		<h1>
+    		Who am I?
+    		</h1>
+    	</div>
+    	<div class="content">
+    		<p>
+    		I'm an Ottawa native about to complete my first year of university. I started programming 
+    		almost a year ago last summer, and since then I've been trying to learn as much as I can 
+    		about computer science and web development!
+    		</p>
+    	</div>
+    </li>
+    <li id="section-3">
+    	<div class="title">
+    		<h1>
+    		Things I've worked on:
+    		</h1>
+    	</div>
+    	<div class="content">
+    		<p>
+    		During the first semester, I built an application that lets the user play around with disks
+    		to try and solve the <a href="http://en.wikipedia.org/wiki/Towers_of_hanoi">Towers of Hanoi</a>
+    		problem generalized to any number of towers and any number of disks (called Reve's Puzzle) using Python. It 
+    		also has a solving mode where it shows the quickest solution by animating the disks. This semester,
+    		I built a mock command line using Java which supports various Unix flags and commands in a
+    		team of 4 where we used the Scrum software development process. Over the year, I've also added some features
+    		to a <a href="http://franktian.github.io/Plane-battle/">HTML5 canvas game</a> while learning 
+    		about Javascript, git, and game development, and of course learned about rails and web development in order to make this website!
+    		</p>
+    	</div>
+    </li>
+    <li id="section-4">
+        <div class="title">
+        	<h1>
+    		Why do I want to intern at Shopify?
+    		</h1>
+    	</div>
+    	<div class="content">
+    		<p>
+    		This summer I really want to learn as much as I can about web development. I want to
+    		apply the skills I've learned this year, and learn about programming and working as a programmer
+    		in the real world. What better place to do that than at Shopify?
+    		Shopify is a company that is growing rapidly, but one that has a tight knit community, and is 
+    		committed to providing the best product possible to its customers - from Fortune 500 companies
+    		to aspiring entrepreneurs. It's a place where I not only know that I will be in the ideal place to 
+    		learn as much as possible (and meet some great people), but also where I will be able to 
+    		contribute and make an impact.
+    		</p>
+    	</div>
+    </li>
+    <li id="section-5">
+    	<div class="title">
+    		<h1>
+    		Why should you hire me?
+    		</h1>
+    	</div>
+    	<div class="content">
+    		<p>
+    		I'm committed to writing solid code that is built to last and take pride in the work I do. I love working in teams
+    		(including pair programming!) and collaborating with all kinds of people
+    		from developers to designers. Above all, my ability to pick up and learn new things quickly
+    		in addition to my willingness to help out in any way I can means that I will be contributing to Shopify as much as possible
+    		</p>
+    	</div>
+    </li>
+    <li id="section-6">
+        <div class="title">
+            <h1 style="color: white;">
+            Contact me!
+            </h1>
+        </div>
+        <div class="content">
+            <p>
+            If you're interested in talking to me, feel free to email me at <%= link_to "felix.czhu@gmail.com", "mailto:felix.czhu@gmail.com" %>
+            or call me at (416) 822-3691.
+            </p>
+        </div>
+    </li>
+</ol>
+
+<script>
+    $(function(){
+       $('.curtains').curtain({
+           scrollSpeed: 300,
+           controls: '.menu',
+           curtainLinks: '.curtain-links',
+           nextSlide: function(){
+            console.log("ok");
+           }
+       });
+    });
+</script>

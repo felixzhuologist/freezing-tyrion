@@ -15,3 +15,6 @@
 //= require jquery.imagesloaded.min
 //= require video
 //= require bigvideo
+//= require modernizer
+//= require modernizr-2.5.3.min
+//= require curtain

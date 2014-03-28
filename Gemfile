@@ -10,8 +10,9 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-gem 'sqlite3', '1.3.8'
-
+group :development, :test do
+  gem 'sqlite3', '1.3.8'
+end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

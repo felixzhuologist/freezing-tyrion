@@ -34,13 +34,13 @@ p {
     line-height: 150%;
 }
 
-a {
+.content a {
     color: white;
     font-style: italic;
     text-decoration: none;
 }
 
-a:hover {
+.content a:hover {
     text-decoration: underline;
 }
 

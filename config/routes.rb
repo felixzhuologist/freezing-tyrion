@@ -1,7 +1,7 @@
 Bigvideo::Application.routes.draw do
 
   root :to => 'home#index'
-  match '/shopify',    to: 'home#shopify',    via: 'get'
+  match '/more',    to: 'home#more',   via: 'get', :as => :more
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

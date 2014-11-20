@@ -2,6 +2,6 @@ class HomeController < ApplicationController
   def index
   end
 
-  def shopify
+  def more
   end
 end

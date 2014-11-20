@@ -1,0 +1,162 @@
+/* General */
+
+
+.content {
+    margin: 50px 200px;
+    text-align: justify;
+}
+
+.title {
+    margin: 40px 20px 20px 50px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'futura-pt', helvetica, arial, sans-serif;
+    font-size: 45px;
+    line-height: 175%;
+    margin: 0;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;    
+    letter-spacing: -2px;
+    color: black;
+}
+
+p {
+    font-family: 'Droid Serif', serif;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    
+    line-height: 150%;
+}
+
+.content a {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+/* Google Font */
+@import url(http://fonts.googleapis.com/css?family=PT+Serif|PT+Sans+Narrow:700|PT+Sans);
+
+
+/* Clearfix */
+.cf:before,
+.cf:after { content:"";display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1;}
+
+
+article{
+    text-align:center;
+    padding:150px 0;
+    width:250px;
+    margin:0 auto;
+}
+
+    article h4:first-child{ margin:0; }
+    article p{ text-align:justify; }
+
+.button{
+    display:inline-block;
+    line-height:1;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 6px 8px;
+    background:#000;
+    color:#FFF;
+    margin:2em 0;
+}
+    .button:hover{
+        color:#FFF;
+        background-color:#444;
+    }
+    .button+.button{margin-left:1em;}
+
+.align-center{text-align: center;}
+
+
+
+/* Sliding panels */
+.curtains>li {
+    background:#FFF url(img/blizzard.png);
+    box-shadow:0 0 12px #666;
+}
+    .curtains>li:last-child{box-shadow:none}
+
+/* MENU */
+#menu{
+    position:fixed;
+    top:20px;
+    left:20px;
+    z-index:20;
+    padding:10px;
+    background-color:#000;
+}
+    #menu li{margin:0}
+    #menu a{
+        margin:0;
+        color:#FFF;
+    }
+
+/* Section 1 */
+
+#section-1{
+    background-size:cover;
+    background-color: #4BB263;
+}
+
+.shopify {
+    height: 60px;
+    width: 150px;
+    position: relative;
+    left: 5px;
+    top: 15px;
+    right: -20px;
+    padding: 0 3px 0 0;
+}
+
+.shopify-cover {
+    margin: auto;
+    margin-top: 150px;
+    width: 825px;
+    height: 500px;
+    text-align: center;
+}   
+
+/* Section 2 */
+#section-2{
+    background-color: #2F8CCC;
+}
+
+
+/* Section 3 */
+#section-3{
+    background-color: #E37225;
+}
+
+/* Section 4 */
+#section-4{
+    background-color: #1abc9c;
+}
+
+
+/* Section 3 */
+#section-5{
+    background-color: #EDBD1D;
+}
+
+#section-6{
+    background-color: #263647;
+}
